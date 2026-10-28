@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+:root{
+    --cor-textos: #14532D;
+    --cor-links: #800080;
+    --cor-fundo: #D9F2E3;
+    --hover-color: #800080;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-textos );
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+.cabecalho {
+    margin-left: 20%;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 100px;
+}
+
+.cabecalho-link {
+    border-radius: 5px;
+    border: 1px solid var(--cor-links);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    padding: 7px 10px;
+    gap: 10px;
+    color: var(--cor-links);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.conteudo {
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo-principal {
+    width: 50%;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-tiutlo {
+    font-size: 50px;
+}
+
+.conteudo-texto {
+    font-size: 20px;
+}
+
+.rodape {
+    background-color: var(--cor-fundo);
+    color: var(--cor-textos);
+    padding: 20px;
+    font-weight: 400;
+    font-size: 1.875rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+}
+
+.rodape-imagem {
+    width: 250px;
+    height: 250px;
+}
+
+a {
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: var(--hover-color);
+    color: var(--cor-fundo);
+}
