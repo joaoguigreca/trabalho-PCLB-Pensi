@@ -35,7 +35,7 @@ body {
     border: 1px solid var(--cor-links);
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align: center;     
     font-weight: 600;
     padding: 7px 10px;
     gap: 10px;
